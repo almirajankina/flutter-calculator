@@ -47,7 +47,7 @@ class _CalculatorViewState extends State<CalculatorView> {
         resultFontSize = 48.0;
 
         expression = equation;
-        expression = expression.replaceAll('×', '*');
+        expression = expression.replaceAll('x', '*');
         expression = expression.replaceAll('÷', '/');
 
         try{
