@@ -14,7 +14,7 @@ class _CalculatorViewState extends State<CalculatorView> {
   double equationFontSize = 38.0;
   double resultFontSize = 48.0;
 
-  get buttonText => null;
+
 
   buttonPressed(String buttonText){
     // add the function here
